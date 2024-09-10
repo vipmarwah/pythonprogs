@@ -11,7 +11,7 @@ if __name__ == "__main__":
         .getOrCreate()
     partitions = int(sys.argv[1]) if len(sys.argv) > 1 else 2
     n = 100000 * partitions
-   
+   time.sleep(240)
     def f(_: int) -> float:
         x = random() * 2 - 1
         y = random() * 2 - 1
