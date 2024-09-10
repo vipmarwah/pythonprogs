@@ -12,7 +12,7 @@ if __name__ == "__main__":
     partitions = int(sys.argv[1]) if len(sys.argv) > 1 else 2
     n = 100000 * partitions
     
-    time.sleep(180)
+    time.sleep(240)
     
     def f(_: int) -> float:
         x = random() * 2 - 1
